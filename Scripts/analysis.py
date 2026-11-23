@@ -19,7 +19,7 @@ print(df.shape)
 print(df.columns)
 
 # Display dataset information
-df.info
+df.info()
 # Convert InvoiceDate into datetime format
 df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"])
 
